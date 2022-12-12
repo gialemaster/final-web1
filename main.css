@@ -46,51 +46,8 @@ li a:hover {
   background-color: #33291A;
   color:   #F8EFE9;
 }
-.logo
-{
+.logo{
   width: 100%;
-}
-.home {
-  display: grid;
-  grid-template-columns: 15% 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-.quote {
-  font-family: "big calson", serif;
-  font-size: 2em;
-  color: #33291A;
-  padding-left: 30px;
-  padding-top: 20px;
-  background-color: #F2DDC9;
-  grid-column: 2/4;
-  grid-row: 2/3;
-  margin: 10px 10px;
-}
-.ginny {
-  padding-left: 300px;
-  color:   #AB6113;
-}
-.quote-name {
-  box-shadow: 10px 10px #7D2F0B;
-  background-color: #F2DDC9;
-}
-#q1 {
-  grid-column:2/3;
-  grid-row: 2/3;
-  background-color: #F2DDC9;
-    box-shadow: 10px 10px #7D2F0B;
-    margin: 10px 10px;
-}
-#q2 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-  background-color: #F2DDC9;
-  box-shadow: 10px 10px #7D2F0B;
-  margin: 10px 10px;
-}
-footer {
-  grid-column: 2/5;
-  grid-row: 4/5;
 }
 /* footer styling */
 footer {
@@ -114,7 +71,7 @@ footer {
 .about {
   color: #33291A;
   text-decoration: none;
-  font-family: gill sans, sans-serif;
+  font-family: "gill sans", sans-serif;
   padding-top: 60px;
   padding-left: 25px;
 }
@@ -126,4 +83,63 @@ footer {
   font-family: gill sans, sans-serif;
   line-height: 2em;
 }
-/* BLANK styling */
+/* body styling */
+.main1 {
+  padding-left: 210px;
+}
+.welcome {
+  width: 1145px;
+}
+.quote-name {
+  background-color: #F2DDC9;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 5px;
+  box-shadow: 19px 19px #7D2F0B;
+}
+.quote {
+  font-family: "big calson", serif;
+  color: #33291A;
+  font-size: 2em;
+}
+.ginny {
+  font-family:"gill sans", sans-serif;
+  color: #AB6113;
+  font-size: 1.5em;
+  margin-left: 800px;
+}
+.img-menu {
+  display: flex;
+}
+#imgs {
+  border-radius: 50%;
+  width: 275px;
+  flex: 33.33%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.menu2{
+  list-style-type: none;
+  font-family: "gill sans", sans-serif;
+  color: #33291A;
+  display:grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-row: 2em;
+}
+.menu2 li {
+  display:block;
+	width:150px;
+  padding-left: 75px;
+  align-items: center;
+  justify-items: center;
+}
+.yarn1 {
+  grid-column: 1;
+}
+.tut1 {
+  grid-column: 2;
+
+}
+.faq1 {
+  grid-column: 3;
+}
